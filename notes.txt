@@ -1,0 +1,1 @@
+1. All tiles sizes should be restricted to 40 x 40 pixels ONLY! Also, should be shrinked by a factor of 0'998.
