@@ -1,11 +1,7 @@
-#include "Silicon/system.hpp"
-#include <iostream>
+#include "Silicon/variable.hpp"
 
 int main(int argc, char const *argv[])
 {
-    // Early engine demo.
-
-    for (std::string i : Silicon::tools::seperate("Hello World Data IS Here!",' ')) {
-        std::cout << i << "\n";
-    }
+    
+    return 0;
 }

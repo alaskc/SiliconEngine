@@ -1,7 +1,7 @@
 Project Name: MD2D
-Made by: @HalfLife 
+Made by: Schzi Hollwarde
 
 Engine Name: Silicon
-Engine Version : 0.1v (Code DECON) Beta.
+Engine Version : 0.2 (Codename DECON) Beta.
 
-Project Status: WIP 40%
+Project Status: WIP 45%

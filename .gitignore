@@ -1,3 +1,6 @@
-/.vscode
-/md.exe
-/res
+.vscode
+md.exe
+res
+main.cpp
+version.txt
+Silicon/tests/

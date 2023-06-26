@@ -3,11 +3,15 @@
 #include "graphics.hpp"
 #include "input.hpp"
 #include "level.hpp"
+#include "collision.hpp"
 
 #define Grid_size 40
 
 namespace Silicon {
     using std::string;
+
+    const std::string LEVELS_PATH = "res/level/";
+    const std::string TEXTURES_PATH = "res/textures/";
 
     sf::Vector2f fixCoords(sf::Vector2f vec) {
         sf::Vector2f a;
@@ -68,12 +72,21 @@ namespace Silicon {
                 index++;
             }
         }
+
+        void loadlevel(std::string name) {
+            name = LEVELS_PATH + name;
+
+            for (const auto& i : getLevel(name)) {
+                
+            }
+        }
     };
 
     class SC_Instance : public World {
         public:
 
         Sprite player;
+        bool player_load;
 
         void render(sf::RenderWindow* w, bool applyCameraShift = false) {
             int index = 0;
